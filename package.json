@@ -3,7 +3,13 @@
   "version": "1.0.0",
   "description": "A boilerplate repository to get you started with Hardhat and Ethereum development",
   "scripts": {
-    "test": "hardhat test"
+    "test": "hardhat test",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "eject": "react-scripts eject",
+    "capacitor:sync": "npx cap sync",
+    "capacitor:copy": "npx cap copy",
+    "capacitor:open": "npx cap open android"
   },
   "repository": {
     "type": "git",
@@ -27,7 +33,10 @@
     "ethers": "^5.7.2",
     "hardhat": "^2.12.5",
     "hardhat-gas-reporter": "^1.0.9",
-    "solidity-coverage": "^0.8.2"
+    "solidity-coverage": "^0.8.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "^5.0.1"
   },
   "dependencies": {
     "@capacitor/android": "6.1.0",
